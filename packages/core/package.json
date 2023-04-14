@@ -1,0 +1,24 @@
+{
+    "name": "styled-tools-core",
+    "version": "1.0.0",
+    "main": "./dist/lib.js",
+    "description": "",
+    "publishConfig": {
+        "access": "public"
+    },
+    "scripts": {
+        "dev": "cross-env NODE_ENV=development node esbuild.mjs",
+        "build": "cross-env NODE_ENV=production node esbuild.mjs"
+    },
+    "author": "Clóvis Neto",
+    "license": "ISC",
+    "dependencies": {
+      "esbuild": "0.17.16"
+    },
+    "devDependencies": {
+      "@jgoz/esbuild-plugin-typecheck": "^3.0.2",
+      "cross-env": "^7.0.3",
+      "typescript": "^5.0.4"
+    }
+  }
+  

@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.App-header {
+  text-align: center;
+}
+
+img {
+  max-width: 300px;
+  width: 100%;
+}
