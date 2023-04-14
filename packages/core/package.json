@@ -1,6 +1,6 @@
 {
     "name": "styled-tools-core",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "main": "./dist/lib.js",
     "files": [
       "dis/**"
