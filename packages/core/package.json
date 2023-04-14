@@ -2,7 +2,11 @@
     "name": "styled-tools-core",
     "version": "1.0.0",
     "main": "./dist/lib.js",
-    "description": "",
+    "files": [
+      "dis/**"
+    ],
+    "keywords": ["css-in-js", "devtools", "styled-components", "emotion"],
+    "description": "Save time, avoid changing your theme.{js,ts} file in order to test a theme change in the browser.",
     "publishConfig": {
         "access": "public"
     },

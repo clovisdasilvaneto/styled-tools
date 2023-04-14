@@ -2,10 +2,12 @@
   "private": true,
   "scripts": {
     "build": "turbo run build",
-    "dev": "turbo run dev --no-cache --continue"
+    "dev": "turbo run dev --no-cache --continue",
+    "publish-packages": "turbo run build && changeset version && changeset publish"
   },
   "devDependencies": {
-    "turbo": "latest"
+    "turbo": "latest",
+    "@changesets/cli": "latest"
   },
   "workspaces": [
     "packages/*",

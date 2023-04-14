@@ -13,7 +13,7 @@ This tool was created with the purpose to **enable css-in-js theme debugging in 
 It is pretty straight forward to use the library, you just need to first install it:
 
 ```js
-npm i styled-tools --save
+npm i styled-tools-core --save
 ```
 
 then in your theme definition, you can decorate it with the `StyledTools` function, like:

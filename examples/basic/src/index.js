@@ -4,8 +4,11 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { Global, css, ThemeProvider } from "@emotion/react";
+
+// You first need to add the module 🔥
 import StyledTools from "styled-tools-core";
 
+// Then you can decorate your theme with our function 🚀
 const { theme, globals } = StyledTools({
   colors: {
     background: "#000",
@@ -20,6 +23,10 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <ThemeProvider theme={theme}>
+      {/* Since we map all the theme properties to css-variables
+          you need to take our globals variable and pass it to the
+          Global component of your css-in-js library 🙂
+       */}
       <Global
         styles={css`
           ${globals}
