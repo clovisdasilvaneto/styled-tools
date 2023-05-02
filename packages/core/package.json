@@ -3,7 +3,7 @@
     "version": "1.0.1",
     "main": "./dist/lib.js",
     "files": [
-      "dis/**"
+      "dist/**"
     ],
     "keywords": ["css-in-js", "devtools", "styled-components", "emotion"],
     "description": "Save time, avoid changing your theme.{js,ts} file in order to test a theme change in the browser.",
