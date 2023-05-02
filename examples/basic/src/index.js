@@ -11,6 +11,9 @@ import StyledTools from "styled-tools-core";
 // Then you can decorate your theme with our function 🚀
 const { theme, globals } = StyledTools({
   colors: {
+    nevinha: {
+      primary: "red"
+    },
     background: "#000",
     primary: "hotpink",
   },
